@@ -1,0 +1,12 @@
+---
+en-US:
+    banners: Banners
+    banner: Banner
+    listing_banners: Listing banners
+    position: Position
+    tagline: Tagline
+    target_url: Target URL
+    new_banner: New banner
+    editing_banner: Editing banner
+    reorder: Reorder
+    reorder_explain: Drag the banners up and down to adjust the order in which they are displayed
