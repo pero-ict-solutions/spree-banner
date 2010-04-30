@@ -40,4 +40,8 @@ class BannerHooks < Spree::ThemeSupport::HookListener
   #   end
   #
 
+  insert_after :admin_tabs do
+    %(<%=  tab(:banners)  %>)
+  end
+
 end

@@ -3,8 +3,8 @@
 
 class BannerExtension < Spree::Extension
   version "1.0"
-  description "Describe your extension here"
-  url "http://yourwebsite.com/banner"
+  description "Provides a way to manage banners on your spree webshop"
+  url "http://github.com/pero-ict/spree-banner"
 
   # Please use banner/config/routes.rb instead for extension routes.
 
