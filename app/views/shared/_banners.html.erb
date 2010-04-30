@@ -1,0 +1,21 @@
+<div id="banner-slideshow">
+  <%Banner.all.each do |banner|%>
+    <div class="banner">
+      <div class="tagline"><%=banner.tagline%></div>
+      <%if banner.target_url.empty?%>
+        <%=image_tag( banner.image.url(:banner)) %>
+      <%else%>
+        <%= link_to(image_tag(banner.image.url(:banner)), banner.target_url) %>
+      <%end%>
+      
+    </div>
+  <%end -%>
+</div>
+
+<script type="text/javascript" charset="utf-8">
+$(document).ready(function() {
+    $('#banner-slideshow').cycle({
+		fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+	});
+});  
+</script>
